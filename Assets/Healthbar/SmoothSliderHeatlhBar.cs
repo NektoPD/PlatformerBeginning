@@ -5,6 +5,7 @@ using UnityEngine.UI;
 public class SmoothSliderHeatlhBar : MonoBehaviour
 {
     [SerializeField] private Slider _smoothSlider;
+    
     private Health _health;
     private float _speed = 10;
 
